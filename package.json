@@ -1,0 +1,14 @@
+{
+  "name": "atlanta-website",
+  "version": "0.0.1",
+  "description": "Website for Atlanta Project",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/bartoszhalwa/Atlanta-Website.git"
+  },
+  "author": "Atlanta Project Team",
+  "bugs": {
+    "url": "https://github.com/bartoszhalwa/Atlanta-Website/issues"
+  },
+  "homepage": "https://github.com/bartoszhalwa/Atlanta-Website#readme"
+}
