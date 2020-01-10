@@ -6,9 +6,13 @@
     "type": "git",
     "url": "git+ssh://git@github.com/bartoszhalwa/Atlanta-Website.git"
   },
+  "private": true,
   "author": "Atlanta Project Team",
   "bugs": {
     "url": "https://github.com/bartoszhalwa/Atlanta-Website/issues"
   },
-  "homepage": "https://github.com/bartoszhalwa/Atlanta-Website#readme"
+  "homepage": "https://github.com/bartoszhalwa/Atlanta-Website#readme",
+  "devDependencies": {
+    "@types/jquery": "^3.3.31"
+  }
 }

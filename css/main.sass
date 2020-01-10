@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900|Roboto:100,300,400,500,700,900&display=swap')
+
+*
+	margin: 0
+	padding: 0
+	box-sizing: border-box
+
+	font-family: "Roboto", sans-serif
+	font-weight: 300
+
+	user-select: none
+
+a
+	color: inherit
+	text-decoration: none
+
+nav ul
+	list-style: none
+
+@for $i from 1 through 6
+	h#{$i}
+		font-size: (7-$i) * 0.2rem + 1rem
+		font-family: "Montserrat", sans-serif
+
+.spacer
+	flex: auto
+	width: 100%
+
+.select
+	user-select: unset
+
+header
+	position: sticky
+	top: 0
+	padding: 10px 20px
+
+	box-shadow: 0 3px 6px rgba(0,0,0,0.25)
+	background-color: #141414
+
+	display: flex
+	justify-content: center
+	align-items: center
+
+	color: #ccc
+
+	h1
+		font-weight: 700
+
+	nav
+		align-self: stretch
+
+	nav > ul
+		height: 100%
+		display: flex
+		font-size: 1.2em
+
+		li
+			display: flex
+			align-items: center
+			padding: 0 10px
+		
+		.activeLink
+			position: absolute
+			height: 2px
+			background-color: #ccc
+			border-radius: 1em
+			transition: all .5s
+
+		.mdi
+			margin-left: 0.5rem
+
+section
+	height: 70vh
+	
+	&:nth-of-type(2n)
+		background-color: green
+
+	&:nth-of-type(2n+1)
+		background-color: red
